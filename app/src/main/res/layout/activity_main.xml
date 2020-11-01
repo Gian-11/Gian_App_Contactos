@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="18"
+        android:inputType="textPersonName"
+        android:hint="@string/nombre_completo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="12dp"
+        />
+
+
+    <DatePicker
+        android:id="@+id/dtpFecha"
+        android:layout_width="275dp"
+        android:layout_height="238dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:calendarViewShown="false"
+        android:clickable="false"
+        android:datePickerMode="spinner"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="78dp">
+
+        <TextView
+            android:id="@+id/txtElegirFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:text="@string/texto_elegirfecha"
+            android:textAlignment="center"
+            android:textStyle="bold"></TextView>
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="119dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|bottom"
+            android:backgroundTint="@color/primario_dark"
+            android:text="@string/btn_ok"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:cornerRadius="0dp"></Button>
+
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="119dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left|bottom"
+            android:backgroundTint="@color/primario_dark"
+            android:text="@string/btn_cancelar"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:cornerRadius="0dp"></Button>
+
+
+    </DatePicker>
+
+
+    <EditText
+        android:id="@+id/txtTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="18dp"
+        android:ems="18"
+        android:inputType="phone"
+        android:hint="@string/telefono"
+        android:layout_marginLeft="9dp" />
+
+    <EditText
+        android:id="@+id/txtMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="9dp"
+        android:ems="18"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:layout_marginLeft="9dp" />
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="324dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="40dp"
+        android:ems="18"
+        android:inputType="text"
+        android:hint="@string/descripcion_cont"
+        android:layout_marginLeft="9dp"
+        />
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="@color/primario_dark"
+        android:text="@string/btn_siguiente"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+
+        />
+
+
+</LinearLayout>

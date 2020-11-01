@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GianContacts</string>
+    <string name="titulo_pantalla1">Agregar contacto</string>
+    <string name="texto_elegirfecha">Seleccionar fecha de nacimiento</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion_cont">Descripción contacto</string>
+    <string name="app_owner" translatable="false">Gian.A.</string>
+    <string name="titulo_pantalla2">Confirmar datos</string>
+    <string name="confirmar">Confirmar los datos</string>
+    <string name="ejemplo_nombre">Carles Puyol</string>
+    <string name="ejemplo_fecha">13-4-1978</string>
+    <string name="ejemplo_telefono">011244942</string>
+    <string name="ejemplo_mail">puyol@barcelona.com</string>
+    <string name="ejemplo_desc">El capitán</string>
+    <string name="btn_editarDatos">Editar datos</string>
+    <string name="nombre">Nombre: </string>
+    <string name="fecha">Fecha: </string>
+    <string name="ndetelefono">Número de teléfono: </string>
+    <string name="descripcion">Descripción: </string>
+    <string name="email_pantalla2" translatable="false">Email: </string>
+</resources>

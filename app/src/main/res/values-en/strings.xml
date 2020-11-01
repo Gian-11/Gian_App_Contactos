@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GianContacts</string>
+    <string name="titulo_pantalla1">Add contact</string>
+    <string name="texto_elegirfecha">Selec birthdate</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancelar">Cancel</string>
+    <string name="btn_siguiente">Next</string>
+    <string name="nombre_completo">Full name</string>
+    <string name="telefono">Phone number</string>
+    <string name="descripcion_cont">Contact description</string>
+    <string name="titulo_pantalla2">Confirm data</string>
+    <string name="confirmar">Confirm contact data</string>
+    <string name="ejemplo_nombre">-</string>
+    <string name="ejemplo_fecha">-</string>
+    <string name="ejemplo_telefono">-</string>
+    <string name="ejemplo_mail">-</string>
+    <string name="ejemplo_desc">-</string>
+    <string name="btn_editarDatos">Edit data</string>
+    <string name="nombre">Name:</string>
+    <string name="fecha">Date:</string>
+    <string name="ndetelefono">Phone number:</string>
+    <string name="descripcion">Description:</string>
+    <string name="email">Email</string>
+</resources>
