@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">GianContacts</string>
     <string name="titulo_pantalla1">Add contact</string>
-    <string name="texto_elegirfecha">Selec birthdate</string>
+    <string name="texto_elegirfecha">Select birthdate</string>
     <string name="btn_ok">OK</string>
     <string name="btn_cancelar">Cancel</string>
     <string name="btn_siguiente">Next</string>
@@ -23,3 +23,6 @@
     <string name="descripcion">Description:</string>
     <string name="email">Email</string>
 </resources>
+
+
+GianTest
